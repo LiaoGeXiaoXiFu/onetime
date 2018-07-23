@@ -3,7 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/bug_test/bug_test.iml" filepath="$PROJECT_DIR$/bug_test/bug_test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bugly_test/bugly_test.iml" filepath="$PROJECT_DIR$/bugly_test/bugly_test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/md5/md5.iml" filepath="$PROJECT_DIR$/md5/md5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/updatemanager/updatemanager.iml" filepath="$PROJECT_DIR$/updatemanager/updatemanager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/updatetask/updatetask.iml" filepath="$PROJECT_DIR$/updatetask/updatetask.iml" />
       <module fileurl="file://$PROJECT_DIR$/yikezhong_demo.iml" filepath="$PROJECT_DIR$/yikezhong_demo.iml" />
     </modules>
   </component>

@@ -4,7 +4,7 @@
     android:id="@+id/drawerLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.myyikezhong.MainActivity">
+    tools:context="com.example.wsnbb.MainActivity">
 
     <LinearLayout
         android:id="@+id/lin_hide"
@@ -76,7 +76,7 @@
     </LinearLayout>
     <fragment
         android:id="@+id/left_fragment"
-        android:name="com.example.myyikezhong.view.LeftMenuFragment"
+        android:name="com.example.wsnbb.view.LeftMenuFragment"
         android:layout_width="220dp"
         android:layout_height="match_parent"
         android:layout_gravity="left"

@@ -1,1 +1,1 @@
-include ':app', ':bug_test'
+include ':app', ':updatemanager', ':md5', ':updatetask', ':bugly_test'

@@ -4,10 +4,9 @@
     android:layout_height="match_parent"
     android:background="#88ffff"
     >
-    <LinearLayout
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical"
         >
         <com.youth.banner.Banner
             android:id="@+id/ban_hot"
@@ -20,9 +19,10 @@
             android:id="@+id/rv_hot"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:layout_below="@+id/ban_hot"
             >
 
         </android.support.v7.widget.RecyclerView>
-    </LinearLayout>
+    </RelativeLayout>
 
 </ScrollView>

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.myyikezhong.view.WelcomeActivity">
+    tools:context="com.example.wsnbb.view.WelcomeActivity">
     <ImageView
         android:id="@+id/splash"
         android:layout_width="match_parent"

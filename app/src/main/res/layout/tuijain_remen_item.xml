@@ -15,15 +15,6 @@
             android:layout_height="80dp"
             android:id="@+id/rc_img"
             android:layout_marginLeft="15dp"/>
-        <!--<com.facebook.drawee.view.SimpleDraweeView-->
-            <!--app:roundAsCircle="true"-->
-            <!--android:scaleType="centerCrop"-->
-            <!--android:id="@+id/rc_img"-->
-            <!--android:layout_width="50dp"-->
-            <!--android:layout_height="50dp"-->
-            <!--android:layout_marginLeft="10dp"-->
-            <!--app:placeholderImage="@drawable/wwww"-->
-            <!--/>-->
 
         <LinearLayout
             android:layout_width="wrap_content"

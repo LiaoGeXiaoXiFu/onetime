@@ -1,8 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="match_parent" >
-
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+        <com.facebook.drawee.view.SimpleDraweeView
+            fresco:roundAsCircle="true"
+            android:scaleType="centerCrop"
+            android:id="@+id/heart_img"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="10dp"
+            fresco:placeholderImage="@drawable/ic_launcher_background"
+            android:layout_above="@+id/tv_signature"
+            />
+        <TextView
+            android:id="@+id/tv_signature"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="编辑个人签名"
+            android:layout_alignParentBottom="true"
+            />
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="我是你爸爸"
+            android:layout_toRightOf="@+id/heart_img"
+            android:layout_above="@+id/tv_signature"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="20dp"
+            />
+    </RelativeLayout>
     <ListView
         android:id="@+id/left_menu_lv"
         android:layout_width="match_parent"
@@ -10,5 +43,4 @@
         android:layout_marginTop="150dp" >
     </ListView>
 
-
-</RelativeLayout>
+</LinearLayout>

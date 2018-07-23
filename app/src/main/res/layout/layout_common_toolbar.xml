@@ -13,7 +13,7 @@
         android:background="@color/bg_toolbar"
         >
 
-        <com.example.myyikezhong.view.CircleImageView
+        <com.example.wsnbb.view.CircleImageView
             android:id="@+id/toolbar_left_btn"
             android:layout_width="40dp"
             android:layout_height="40dp"
